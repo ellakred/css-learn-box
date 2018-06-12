@@ -1,0 +1,45 @@
+.happy ul li {
+    color: red;
+}
+.happy .happy-green {
+    color: green;
+}
+#happy-blue {
+    color: blue; 
+}
+.sad ul li:nth-child(odd) {
+    color: blue;
+}
+.sad ul li:nth-child(even) {
+    color: yellow;
+}
+.sad ol li:nth-child(3n+2) {
+  color: green;
+}
+.sad ol li:nth-child(3n) {
+    color: blue;
+}
+.sad ol li:nth-child(3n+1) {
+    color: red;
+}
+.happy > span  {
+    color: blue;
+}
+.happy > p {
+    color: orange;
+}
+.happy div > p {
+    color: blue;
+}
+.happy div > span {
+    color: orange;
+}
+.bomb p:first-child {
+    color: red;
+}
+.bomb p:last-child {
+    color: blue;
+}
+.bomb p:nth-child(5) {
+    color: green;
+}
