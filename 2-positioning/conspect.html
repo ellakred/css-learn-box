@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Positioning & Overflow</title>
+	<style>
+		/* Свойство position опріділяє тіп позіціонірованія елемента на сторінкі. Стандартне значення - static */
+
+		/*Статік 
+		1) Всі елементи лежать на одной плоскості
+		2) Всі елементи лежать в нормально потокі
+		*/
+
+		/*Absolute - абсолют
+		1) Плоскость елементов опріділяється свойством z-index
+		2) Елемент вибивається з нормального потока
+		3) позіціонірованія елемента с помощью свойств топ ботом лефт райт - возможне
+		4) По дефолту - точка отсчота - окно*/
+
+		/*Relative
+		1)Не вибиває з общого потока
+		2)Точка отсчтота - орігінальне положеніє
+
+		Fixed
+		1) вибиває з потока
+		2) по дефолту точка отсчота - окно
+
+		sticky
+			- кріпе елемент до коордінати по достіженію заданого растоянія
+
+
+		OVERFLOW: Отсікає часті виходящі за контейнер АБО добавляє скроли
+*/
+		/* Сброс отступов со стороны границы страницы*/
+		html,
+		body {
+			padding: 0;
+			margin: 0;
+		}
+		.container {
+			background: gray;
+			height: 500px;
+			width: 500px;
+			overflow-y: auto;
+			overflow-x: auto;
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		VeryveryveryveryveryveryveryveryveryveryveryveryveryveryveryverylongwordVeryveryveryveryveryveryveryveryveryveryveryveryveryveryveryverylongword
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nihil, ad a et esse neque numquam molestias sed rerum. Nisi aliquam iure, temporibus quam, numquam provident laboriosam tenetur ab maiores incidunt veniam est vero possimus, vel perferendis esse, quis. Saepe excepturi fugiat sint nihil, ipsa nisi dolorum, cupiditate inventore, nesciunt doloremque facilis? Error distinctio vel placeat deleniti alias eos labore, laborum voluptates quod temporibus, dolorum est provident. Animi, tenetur unde tempore consequuntur error ipsum quidem sunt, iste ut quod voluptatum facere necessitatibus, atque, nam mollitia aperiam temporibus praesentium nobis explicabo tempora sit. Sit dolores cumque tempora, quae enim explicabo laboriosam corrupti sed quis aut exercitationem! Ipsum fugit quasi laborum repellendus nostrum nisi doloribus, modi, dolor fuga aperiam sed assumenda eum, ex temporibus? Laboriosam iusto nobis modi maiores architecto nesciunt illo voluptates, rem, debitis cum mollitia, doloremque blanditiis dolorum dolore et illum consequuntur ipsam id magnam, animi perferendis iure! Perspiciatis esse id asperiores quae, modi ipsum distinctio repellat dolore laborum accusamus sunt, quasi aperiam quisquam nemo earum sapiente blanditiis optio illum iure soluta nam culpa cum architecto debitis fugit? Obcaecati explicabo, dolores incidunt adipisci nihil ipsa repudiandae quisquam eum. Dicta excepturi velit adipisci hic saepe corporis quas quos aspernatur deserunt est iure nam dignissimos sequi, vero id doloribus quo, sint, blanditiis laudantium. Quaerat aut, corrupti, nemo quibusdam voluptate dolores nesciunt maxime explicabo nisi expedita ipsam consectetur est, debitis ducimus. Tenetur omnis, animi minus possimus sed quis nisi quia, facilis aperiam voluptas quo, dolorem in! Eos illo nemo dignissimos, vel ex nesciunt sed ut placeat, unde eveniet ratione veniam impedit vitae voluptatibus consectetur in! Facilis vel qui possimus tempore cupiditate alias doloremque, libero earum repellendus reprehenderit? Debitis, hic? Ratione, fugit repellat quos. Hic, dolorum! Minima reprehenderit, rem expedita. Tenetur ipsam, est iure natus id. Nihil ipsa eligendi maiores delectus fuga alias nostrum ea quia eaque nemo molestiae quisquam reiciendis iusto laborum a enim tempora sapiente fugiat, incidunt veniam ullam cumque. Quam commodi sed velit, iste consectetur nobis perspiciatis, nam fugiat id vero totam unde a tempore eum, maxime sit molestiae laboriosam! Minima eaque voluptatum totam veniam pariatur reprehenderit dolorem impedit, amet aliquam aspernatur, aliquid molestias rerum voluptates eveniet debitis soluta, deleniti illo excepturi odit esse qui. Explicabo quidem recusandae mollitia odio distinctio rerum possimus sapiente expedita ipsum quisquam, at deserunt non nostrum doloremque harum perferendis sunt, voluptatem libero vel, nisi est, unde officia repudiandae. Fugit veritatis at molestias, laboriosam ad. Vel recusandae, laborum atque sequi sed repellat a inventore dignissimos obcaecati consequuntur nostrum fugiat ducimus distinctio voluptate corrupti minima, iste quas molestias, corporis provident rem autem? Enim cum distinctio quidem, adipisci hic unde fuga cumque nam dicta laborum architecto deleniti magnam delectus quisquam facere suscipit, voluptatibus repellendus quas aperiam placeat. Fugit, quidem et officia odit vero eum dignissimos at quos repellat facere ullam pariatur corrupti quod iste sapiente impedit ab nesciunt rerum minus reprehenderit. Eaque amet quae vel libero incidunt iure quasi in perspiciatis at suscipit maxime doloremque blanditiis ipsa aliquid, placeat voluptatibus odit nobis nulla pariatur, qui beatae totam officia expedita.
+	</div>
+</body>
+</html>
